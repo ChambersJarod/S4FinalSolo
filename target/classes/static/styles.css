@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 36px;
+}
+
+#oneJson2,
+#oneJson {
+    background-color: rgba(255, 205, 86, 0.8);
+    border-radius: 20px;
+    width: 800px;
+    padding: 20px;
+    outline-color: white;
+    outline: dashed;
+    outline-offset: -10px;
+    outline-width: medium;
+}
+
+.index-one,
+.index-two {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+    box-sizing: border-box;
+}
+
+.form-label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+
+.form-input:focus {
+    border: 2px solid #555;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #00796b;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.button-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.button-list li {
+    margin-left: 15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    margin: 20px;
+    color: #333;
+}
+
+.footer span {
+    font-size: 16px;
+}
+
+.index-btn-cnt {
+    align-container: center;
+}
+
+.bn39,
+.bn39s {
+    background-color: #009688;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+}
+
+.bn39:hover,
+.bn39s:hover {
+    color: #fff;
+}
+
+.bn39 .bn39span,
+.bn39s .bn39sspan {
+    align-items: center;
+    background: #333;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+}
+
+.bn39:hover .bn39span,
+.bn39s:hover .bn39sspan {
+    background: transparent;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#prev-btn,
+#enter-btn,
+#home-btn {
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
+    background-color: #009688;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+}
+
+#prev-btn:hover,
+#enter-btn:hover,
+#home-btn:hover {
+    color: #fff;
+    background: transparent;
+}

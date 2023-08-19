@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Binary Search Tree</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Binary Search Tree</h1>
+        <nav class="button-list">
+            <a th:href="@{/previous-trees}" class="bn39" id="prev-btn">Previous Trees</a>
+            <a th:href="@{/}" class="bn39" id="home-btn">Home</a>
+        </nav>
+    </div>
+</header>
+<div class="form-container">
+    <form th:action="@{/process-numbers}" method="post">
+        <label for="numbers" class="form-label">Enter numbers:</label>
+        <input type="text" id="numbers" name="numbers" class="form-input" required>
+        <center>
+            <button type="submit" class="bn39s" id="submit-btn">Submit</button>
+        </center>
+    </form>
+</div>
+<footer class="footer">
+</footer>
+</body>
+</html>

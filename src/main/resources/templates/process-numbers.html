@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Binary Search Tree</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Binary Search Tree</h1>
+        <nav class="button-list">
+            <a th:href="@{/enter-numbers}" class="bn39" id="enter-btn">Enter Numbers</a>
+            <a th:href="@{/previous-trees}" class="bn39" id="prev-btn">Show Previous Trees</a>
+            <a th:href="@{/}" class="bn39" id="home-btn">Home</a>
+        </nav>
+    </div>
+</header>
+
+<pre id="oneJson2" class="json-tree" th:text="${jsonData}"></pre>
+
+<footer class="footer">
+</footer>
+</body>
+</html>

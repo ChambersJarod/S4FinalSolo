@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Previous Binary Search Trees</title>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Previous Trees</h1>
+        <nav class="button-list">
+            <a th:href="@{/enter-numbers}" class="bn39" id="enter-btn">Enter Numbers</a>
+            <a th:href="@{/}" class="bn39" id="home-btn">Home</a>
+        </nav>
+    </div>
+</header>
+<ul id="oneJson">
+    <li th:each="treeJson : ${treeJsonList}">
+        <pre th:text="${treeJson}"></pre>
+    </li>
+</ul>
+<footer class="footer">
+</footer>
+</body>
+</html>
